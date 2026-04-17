@@ -1,0 +1,1088 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "734d1f2c-815e-42ea-8838-670f2de99f3a")
+	(paper "A3")
+	(lib_symbols
+		(symbol "Interface_Ethernet:LAN8710A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -13.97 34.29 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "LAN8710A"
+				(at 17.78 34.29 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm_ThermalVias"
+				(at 3.81 -34.29 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/8710a.pdf"
+				(at -2.54 -24.13 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "LAN8710 Ethernet PHY with MII/RMII interface, QFN-32"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "ETH PHY MII RMII"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "QFN*1EP*5x5mm*P0.5mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LAN8710A_0_1"
+				(rectangle
+					(start -17.78 33.02)
+					(end 17.78 -33.02)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LAN8710A_1_1"
+				(pin power_in line
+					(at 2.54 35.56 270)
+					(length 2.54)
+					(name "VDD2A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 5.08 180)
+					(length 2.54)
+					(name "LED2/~{INTSEL}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 7.62 180)
+					(length 2.54)
+					(name "LED1/~{REGOFF}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 -30.48 0)
+					(length 2.54)
+					(name "XTAL2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -27.94 0)
+					(length 2.54)
+					(name "XTAL1/CLKIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 35.56 270)
+					(length 2.54)
+					(name "VDDCR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 0 0)
+					(length 2.54)
+					(name "RXCLK/~{PHYAD1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 5.08 0)
+					(length 2.54)
+					(name "RXD3/~{PHYAD2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 7.62 0)
+					(length 2.54)
+					(name "RXD2/~{RMIISEL}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 10.16 0)
+					(length 2.54)
+					(name "RXD1/~{MODE1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 12.7 0)
+					(length 2.54)
+					(name "RXD0/~{MODE0}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 35.56 270)
+					(length 2.54)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -2.54 0)
+					(length 2.54)
+					(name "RXER/RXD4/~{PHYAD0}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 -10.16 0)
+					(length 2.54)
+					(name "CRS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -7.62 0)
+					(length 2.54)
+					(name "COL/CRS_DV/~{MODE2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -15.24 0)
+					(length 2.54)
+					(name "MDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -17.78 0)
+					(length 2.54)
+					(name "MDC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -15.24 180)
+					(length 2.54)
+					(name "~{INT}/TXER/TXD4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -22.86 0)
+					(length 2.54)
+					(name "~{RST}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 17.78 0)
+					(length 2.54)
+					(name "TXCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 20.32 0)
+					(length 2.54)
+					(name "TXEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 30.48 0)
+					(length 2.54)
+					(name "TXD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 27.94 0)
+					(length 2.54)
+					(name "TXD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 25.4 0)
+					(length 2.54)
+					(name "TXD2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 22.86 0)
+					(length 2.54)
+					(name "TXD3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 2.54 0)
+					(length 2.54)
+					(name "RXDV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 35.56 270)
+					(length 2.54)
+					(name "VDD1A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 25.4 180)
+					(length 2.54)
+					(name "TXN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 27.94 180)
+					(length 2.54)
+					(name "TXP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 20.32 180)
+					(length 2.54)
+					(name "RXN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 22.86 180)
+					(length 2.54)
+					(name "RXP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -22.86 180)
+					(length 2.54)
+					(name "RBIAS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -35.56 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "LAN8710 is not the cheapest, but it's cheap enough,\nand it's already in kicad, so one less thing to fuck with.\nWe can't use 83825i, because it's rmii ONLY\n\nRTL8201 / SR8201 would be _cheaper_ but, youd need ot make the kicad symbols first, and not meaningful dollars"
+		(exclude_from_sim no)
+		(at 89.916 260.604 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "350a5a38-072f-4bc9-ae0e-d0b53dec8ff5")
+	)
+	(text "If we're doing this, we're fucking using those sexy modern smt cm chokes, unless we cna get magjacks fucking cheap?"
+		(exclude_from_sim no)
+		(at 286.258 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "deed255d-11ad-4afd-9cca-21273de0290c")
+	)
+	(symbol
+		(lib_id "Interface_Ethernet:LAN8710A")
+		(at 114.3 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "200d0233-70da-4fe6-8b9e-5ebc9f6da000")
+		(property "Reference" "U2"
+			(at 116.4433 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LAN8710A"
+			(at 116.4433 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm_ThermalVias"
+			(at 118.11 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/8710a.pdf"
+			(at 111.76 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LAN8710 Ethernet PHY with MII/RMII interface, QFN-32"
+			(at 114.3 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "ac19a872-fb6f-4e7c-83ca-f035ff6e5243")
+		)
+		(pin "21"
+			(uuid "23a65f80-d806-4aef-9c4f-99c7e26f4723")
+		)
+		(pin "14"
+			(uuid "e518852e-317c-4828-a1b1-ce8f6415b950")
+		)
+		(pin "12"
+			(uuid "6fa19160-655e-46c0-9bdd-2ed91b5db6dd")
+		)
+		(pin "29"
+			(uuid "179e77b8-0591-4608-a5b1-abdbfe3696be")
+		)
+		(pin "10"
+			(uuid "1e064c68-b923-40ff-b213-48e928d2fada")
+		)
+		(pin "33"
+			(uuid "4bc6b799-1e4b-4e2d-a3f2-b2a754486043")
+		)
+		(pin "13"
+			(uuid "78a8fbb3-c9eb-423d-92fb-c4d226d7a451")
+		)
+		(pin "17"
+			(uuid "5704dbf8-f3b1-4776-ab26-142e90a49465")
+		)
+		(pin "18"
+			(uuid "0841f47c-c259-42c1-be39-85ad8cf3bce6")
+		)
+		(pin "24"
+			(uuid "148ba49b-2e19-46fc-aa25-1f1761029f34")
+		)
+		(pin "11"
+			(uuid "4efcb29a-17ea-4448-b059-cc8e5a71ceaf")
+		)
+		(pin "30"
+			(uuid "67485dbc-59a1-4b03-8bd5-b9e430a6a469")
+		)
+		(pin "31"
+			(uuid "85f9aaa8-e96c-450b-be00-098e025054a7")
+		)
+		(pin "22"
+			(uuid "c550c277-d4c7-4db4-8cb7-b1d17b16647f")
+		)
+		(pin "26"
+			(uuid "14a0c032-6a5f-46d6-abce-b26c79b9aa09")
+		)
+		(pin "15"
+			(uuid "64c5d1f4-e7ba-4f29-8049-4ceb03e57149")
+		)
+		(pin "19"
+			(uuid "94f74d48-d7b1-475c-bd8e-f32c8d76c02f")
+		)
+		(pin "7"
+			(uuid "b6c67813-7ad0-4851-a0b0-053913f830ef")
+		)
+		(pin "6"
+			(uuid "785896c5-26b4-44a2-83ac-dcffc9077cab")
+		)
+		(pin "5"
+			(uuid "c461bda8-fbbd-4047-bb0f-d5e58024a43a")
+		)
+		(pin "4"
+			(uuid "62943454-c6fd-4179-9ff3-c78ef7129cce")
+		)
+		(pin "2"
+			(uuid "00eb8e96-7325-4fcb-9954-f443fdab6745")
+		)
+		(pin "1"
+			(uuid "0521f27f-5016-4175-8380-3e8ee0108053")
+		)
+		(pin "3"
+			(uuid "5984aaa3-3555-4ae8-a5d9-9dbed29b8506")
+		)
+		(pin "25"
+			(uuid "f6b909f8-0af9-40b5-a6f1-a0305c2442a7")
+		)
+		(pin "32"
+			(uuid "e19e33af-20af-4daa-95d3-3cf7435e4035")
+		)
+		(pin "28"
+			(uuid "98b55e9f-bdd7-4f92-bf8f-ccf660137936")
+		)
+		(pin "27"
+			(uuid "3741f9d0-e2aa-40dc-9dac-4caef43002f9")
+		)
+		(pin "20"
+			(uuid "15b1710b-a2c1-472f-a7fc-c48cdb3b6d83")
+		)
+		(pin "9"
+			(uuid "00e980e1-996d-4354-a9c5-4187b8b982e6")
+		)
+		(pin "16"
+			(uuid "79da313b-786b-428f-ba38-283ab95a96d8")
+		)
+		(pin "23"
+			(uuid "c9352c79-2d38-4753-b8b3-44a56dc8153f")
+		)
+		(instances
+			(project "xmc-ecat-enet-twin"
+				(path "/f5c7c34d-e330-4aa5-be7e-80f0a3a977af/8415661d-0647-4e9e-90ed-a4245c009069"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_Ethernet:LAN8710A")
+		(at 111.76 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fa17027-b0a1-4d07-8ef9-18c37b25d604")
+		(property "Reference" "U3"
+			(at 113.9033 219.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LAN8710A"
+			(at 113.9033 222.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm_ThermalVias"
+			(at 115.57 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/8710a.pdf"
+			(at 109.22 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LAN8710 Ethernet PHY with MII/RMII interface, QFN-32"
+			(at 111.76 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC #" "C46185"
+			(at 111.76 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "ed20b9b1-91d6-4d86-b262-0c5c0b820657")
+		)
+		(pin "21"
+			(uuid "345d9da9-3d47-4ca6-a3b0-08c55f49c841")
+		)
+		(pin "14"
+			(uuid "134204c5-4a65-412b-91c3-3bef20e6ed52")
+		)
+		(pin "12"
+			(uuid "5895cde0-0501-4694-9cb8-a232ba69f2ab")
+		)
+		(pin "29"
+			(uuid "35873bb5-c700-4e4c-92d0-41207523473d")
+		)
+		(pin "10"
+			(uuid "1ee2c563-125d-4236-b278-ab55747c3887")
+		)
+		(pin "33"
+			(uuid "1c2a3616-6268-41a8-b2c8-53730bce2f78")
+		)
+		(pin "13"
+			(uuid "08211481-c689-4f9b-9dbe-009d81f72b70")
+		)
+		(pin "17"
+			(uuid "ae74cc7c-b726-4a92-9b9c-73d05cfc6ae5")
+		)
+		(pin "18"
+			(uuid "f2847a4f-a1a7-436a-9ff8-4fe83206b7a2")
+		)
+		(pin "24"
+			(uuid "ecc8e740-24c9-48fa-ac46-690166bcb737")
+		)
+		(pin "11"
+			(uuid "93ca62ad-bf25-4bd3-846b-8883c0455cad")
+		)
+		(pin "30"
+			(uuid "035e8578-416d-4c32-91e7-187953f5d0c5")
+		)
+		(pin "31"
+			(uuid "6a7bb81e-3e7a-485e-ba93-a571f7308e21")
+		)
+		(pin "22"
+			(uuid "fd4d2c96-b9da-4bae-a6f5-e95be8ac54b5")
+		)
+		(pin "26"
+			(uuid "52afc440-17db-4dc2-a1eb-05736fa31c18")
+		)
+		(pin "15"
+			(uuid "e77a5830-c9fc-4cd5-b2d1-011ccc94c3bf")
+		)
+		(pin "19"
+			(uuid "17fd3c9d-9dfc-4c03-a086-6c13c9e0a347")
+		)
+		(pin "7"
+			(uuid "24ade493-4431-4eb2-bc90-83ffde88e04a")
+		)
+		(pin "6"
+			(uuid "0c109172-a0ad-4f63-9cc7-7182584a89c1")
+		)
+		(pin "5"
+			(uuid "70c5f4f7-f3b6-4a36-b071-4b25c9876db7")
+		)
+		(pin "4"
+			(uuid "3498c57b-b8f7-4ced-a68f-0cc9854e4c91")
+		)
+		(pin "2"
+			(uuid "e2dcf430-5cd7-4e9f-b1b3-fb756ed3b594")
+		)
+		(pin "1"
+			(uuid "eaa5935c-edf0-4083-8fc3-91e53ed9a94f")
+		)
+		(pin "3"
+			(uuid "d09437c9-2f68-47e5-b594-bb005827caa1")
+		)
+		(pin "25"
+			(uuid "0b8f3504-7219-4e27-b60c-ff51a51a9afe")
+		)
+		(pin "32"
+			(uuid "e72b0950-e47c-4139-b18d-2073ac952278")
+		)
+		(pin "28"
+			(uuid "e61c1def-67d1-4e72-9f65-c8043c686ff0")
+		)
+		(pin "27"
+			(uuid "2ce2815e-6014-4a0d-8d97-abb6a4dd8e98")
+		)
+		(pin "20"
+			(uuid "bb847e2c-6ce6-427d-ad23-5cac6ec4aadc")
+		)
+		(pin "9"
+			(uuid "2d37ee5e-07e6-4ecd-92f0-7b6b7f916828")
+		)
+		(pin "16"
+			(uuid "37e51708-c342-40b4-b6a1-09f000d5b34c")
+		)
+		(pin "23"
+			(uuid "b629b070-6cba-4252-88b8-7866bd73e232")
+		)
+		(instances
+			(project "xmc-ecat-enet-twin"
+				(path "/f5c7c34d-e330-4aa5-be7e-80f0a3a977af/8415661d-0647-4e9e-90ed-a4245c009069"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
