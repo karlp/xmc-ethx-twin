@@ -9,6 +9,7 @@ CMC in smd 3416 is common?
 ## Combined, classic "discrete" magnetics
 Didn't i look at this all for etacatica?
 SMD16: 12.7x9.5 ~8.7m pitch acrosss? Hanrun C189555 
+H1102 and clones like C20623173 are this format as well. it's definitely one that would work..
 
 
 ## JACKS
