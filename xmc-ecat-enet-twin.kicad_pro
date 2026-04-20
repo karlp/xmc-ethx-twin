@@ -504,7 +504,11 @@
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "+5V": [
+        "Power distribution"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -635,7 +639,7 @@
         "uuid": "f5c7c34d-e330-4aa5-be7e-80f0a3a977af"
       }
     ],
-    "used_designators": "C1,R1-5,FL1-3,J1-2,TR1,U1-3",
+    "used_designators": "#FLG1,#FLG3-4,#PWR1-7,#PWR12-14,#PWR19,#PWR22,#PWR44-45,#PWR49,#PWR101-103,D1,D4,C1-3,C15-16,TP5,JP1-2,R1-13,R18-20,FL1-3,J1-5,TR1-3,U1-8",
     "variants": []
   },
   "sheets": [
@@ -646,6 +650,18 @@
     [
       "8415661d-0647-4e9e-90ed-a4245c009069",
       "ether_xx"
+    ],
+    [
+      "b245da37-9602-4b35-a25a-6ddbb1541ecf",
+      "Power"
+    ],
+    [
+      "ad8b4270-a50e-4348-8863-ac523723f700",
+      "can"
+    ],
+    [
+      "8a413513-9505-4930-8a63-18ba86ee9e3b",
+      "pi_interface"
     ]
   ],
   "text_variables": {},
