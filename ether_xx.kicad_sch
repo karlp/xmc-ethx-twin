@@ -1387,7 +1387,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "etactica-parts:Transformer_Ethernet_Mentech_H1601CG"
+		(symbol "Transformer:PT61017PEL"
 			(pin_names
 				(hide yes)
 			)
@@ -1406,7 +1406,7 @@
 					)
 				)
 			)
-			(property "Value" "Transformer_Ethernet_Mentech_H1601CG"
+			(property "Value" "PT61017PEL"
 				(at 0 -10.795 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1416,7 +1416,7 @@
 					)
 				)
 			)
-			(property "Footprint" "et-parts:Transformer_Ethernet_Dongguan-MentechH1651CG_SO-12_7.1x12.7mm"
+			(property "Footprint" "Transformer_SMD:Transformer_Ethernet_Bourns_PT61017PEL"
 				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1427,7 +1427,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110272030_Dongguan-Mentech-Optical---Magnetic-H1651CG_C2904704.pdf"
+			(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PT61017PEL.pdf"
 				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1449,7 +1449,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "single port ethernet transformer center-tap"
+			(property "ki_keywords" "single port ethernet transformer poe center-tap"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1471,7 +1471,7 @@
 					)
 				)
 			)
-			(symbol "Transformer_Ethernet_Mentech_H1601CG_0_1"
+			(symbol "PT61017PEL_0_1"
 				(rectangle
 					(start -7.62 10.16)
 					(end 7.62 -10.16)
@@ -1675,7 +1675,7 @@
 					)
 				)
 			)
-			(symbol "Transformer_Ethernet_Mentech_H1601CG_1_1"
+			(symbol "PT61017PEL_1_1"
 				(circle
 					(center -5.207 -6.985)
 					(radius 0.1778)
@@ -1821,7 +1821,7 @@
 				)
 				(arc
 					(start -1.27 6.35)
-					(mid -1.9022 6.985)
+					(mid -1.9023 6.985)
 					(end -1.27 7.62)
 					(stroke
 						(width 0)
@@ -1833,7 +1833,7 @@
 				)
 				(arc
 					(start -1.27 5.08)
-					(mid -1.9022 5.715)
+					(mid -1.9023 5.715)
 					(end -1.27 6.35)
 					(stroke
 						(width 0)
@@ -1845,7 +1845,7 @@
 				)
 				(arc
 					(start -1.27 3.81)
-					(mid -1.9022 4.445)
+					(mid -1.9023 4.445)
 					(end -1.27 5.08)
 					(stroke
 						(width 0)
@@ -1857,7 +1857,7 @@
 				)
 				(arc
 					(start -1.27 2.54)
-					(mid -1.9022 3.175)
+					(mid -1.9023 3.175)
 					(end -1.27 3.81)
 					(stroke
 						(width 0)
@@ -1869,7 +1869,7 @@
 				)
 				(arc
 					(start -1.27 -3.81)
-					(mid -1.9022 -3.175)
+					(mid -1.9023 -3.175)
 					(end -1.27 -2.54)
 					(stroke
 						(width 0)
@@ -1881,7 +1881,7 @@
 				)
 				(arc
 					(start -1.27 -5.08)
-					(mid -1.9022 -4.445)
+					(mid -1.9023 -4.445)
 					(end -1.27 -3.81)
 					(stroke
 						(width 0)
@@ -1893,7 +1893,7 @@
 				)
 				(arc
 					(start -1.27 -6.35)
-					(mid -1.9022 -5.715)
+					(mid -1.9023 -5.715)
 					(end -1.27 -5.08)
 					(stroke
 						(width 0)
@@ -1905,7 +1905,7 @@
 				)
 				(arc
 					(start -1.27 -7.62)
-					(mid -1.9022 -6.985)
+					(mid -1.9023 -6.985)
 					(end -1.27 -6.35)
 					(stroke
 						(width 0)
@@ -1998,7 +1998,7 @@
 				)
 				(arc
 					(start 1.27 3.175)
-					(mid 1.905 3.8072)
+					(mid 1.905 3.8073)
 					(end 2.54 3.175)
 					(stroke
 						(width 0)
@@ -2032,7 +2032,7 @@
 				)
 				(arc
 					(start 2.54 -3.175)
-					(mid 1.905 -3.8072)
+					(mid 1.905 -3.8073)
 					(end 1.27 -3.175)
 					(stroke
 						(width 0)
@@ -2079,7 +2079,7 @@
 				)
 				(arc
 					(start 2.54 3.175)
-					(mid 3.175 3.8072)
+					(mid 3.175 3.8073)
 					(end 3.81 3.175)
 					(stroke
 						(width 0)
@@ -2091,7 +2091,7 @@
 				)
 				(arc
 					(start 3.81 -3.175)
-					(mid 3.175 -3.8072)
+					(mid 3.175 -3.8073)
 					(end 2.54 -3.175)
 					(stroke
 						(width 0)
@@ -2127,7 +2127,7 @@
 				)
 				(arc
 					(start 3.81 3.175)
-					(mid 4.445 3.8072)
+					(mid 4.445 3.8073)
 					(end 5.08 3.175)
 					(stroke
 						(width 0)
@@ -2139,7 +2139,7 @@
 				)
 				(arc
 					(start 5.08 -3.175)
-					(mid 4.445 -3.8072)
+					(mid 4.445 -3.8073)
 					(end 3.81 -3.175)
 					(stroke
 						(width 0)
@@ -2831,6 +2831,12 @@
 		(uuid "69ea5a9c-c720-40de-9211-b9c73ac7c0f9")
 	)
 	(junction
+		(at 251.46 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "863f416b-faec-4353-ad66-9cb61531f92f")
+	)
+	(junction
 		(at 243.84 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2841,12 +2847,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d42f29e3-03a3-4dc7-8627-e0f23074a6b8")
-	)
-	(junction
-		(at 251.46 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ecc64c70-e551-4ef9-86ba-aa8af2c762ba")
 	)
 	(junction
 		(at 243.84 95.25)
@@ -2863,16 +2863,6 @@
 			(type default)
 		)
 		(uuid "096a7bdc-c4ca-4186-8a1a-82e960cb6961")
-	)
-	(wire
-		(pts
-			(xy 251.46 81.28) (xy 251.46 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0eb12a26-4e8b-484d-97f1-47ff9ecf55ff")
 	)
 	(wire
 		(pts
@@ -2916,6 +2906,26 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 86.36) (xy 251.46 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e6af9f0-5764-4145-9da9-929a33457924")
+	)
+	(wire
+		(pts
+			(xy 251.46 86.36) (xy 259.08 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42660354-013e-4533-9912-a33898afd657")
+	)
+	(wire
+		(pts
 			(xy 260.35 139.7) (xy 252.73 139.7)
 		)
 		(stroke
@@ -2943,16 +2953,6 @@
 			(type default)
 		)
 		(uuid "6dd51003-cad1-4625-a3ba-61e286be864b")
-	)
-	(wire
-		(pts
-			(xy 259.08 81.28) (xy 251.46 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71c07d67-5cd6-41ca-8744-0757c9932171")
 	)
 	(wire
 		(pts
@@ -3056,7 +3056,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 83.82) (xy 251.46 88.9)
+			(xy 251.46 83.82) (xy 251.46 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3625,8 +3625,9 @@
 		)
 	)
 	(symbol
-		(lib_id "etactica-parts:Transformer_Ethernet_Mentech_H1601CG")
-		(at 203.2 83.82 0)
+		(lib_id "Transformer:PT61017PEL")
+		(at 209.55 85.09 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3634,10 +3635,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "48a0592f-e786-4e24-a96e-d8acafce57ff")
-		(property "Reference" "TR2"
-			(at 203.2 68.58 0)
+		(uuid "41bcecdc-286b-4f31-a3fb-dfad266e1160")
+		(property "Reference" "TR5"
+			(at 209.55 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3646,8 +3646,8 @@
 				)
 			)
 		)
-		(property "Value" "Transformer_Ethernet_Mentech_H1601CG"
-			(at 203.2 71.12 0)
+		(property "Value" "PT61017PEL"
+			(at 209.55 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3656,8 +3656,8 @@
 				)
 			)
 		)
-		(property "Footprint" "et-parts:Transformer_Ethernet_Dongguan-MentechH1651CG_SO-12_7.1x12.7mm"
-			(at 203.2 96.52 0)
+		(property "Footprint" "Transformer_SMD:Transformer_Ethernet_Bourns_PT61017PEL"
+			(at 209.55 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3667,8 +3667,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110272030_Dongguan-Mentech-Optical---Magnetic-H1651CG_C2904704.pdf"
-			(at 203.2 99.06 0)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PT61017PEL.pdf"
+			(at 209.55 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3679,7 +3679,7 @@
 			)
 		)
 		(property "Description" "Ethernet LAN 10/100 Base-Tx Transformer with Center Taps"
-			(at 203.2 83.82 0)
+			(at 209.55 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3689,46 +3689,68 @@
 				)
 			)
 		)
-		(pin "14"
-			(uuid "e05e0262-6f44-4df7-885a-357a6e6ff2a9")
+		(property "MPN" "B1601S"
+			(at 209.55 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "10"
-			(uuid "c943ece5-4002-4f1c-b8a1-ec27c0ca6ff6")
-		)
-		(pin "15"
-			(uuid "ac0cd0df-1758-4294-abfc-adf6a0ddea17")
-		)
-		(pin "16"
-			(uuid "a125199b-88b5-4ada-b908-c2da6f17293d")
-		)
-		(pin "11"
-			(uuid "2df7828b-4827-44df-90f4-04e4439c928a")
+		(property "LCSC Part #" "C510548"
+			(at 209.55 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "9"
-			(uuid "1a2d2436-eea7-4184-a8cf-c2fb20841641")
-		)
-		(pin "8"
-			(uuid "8af22d52-5e31-436d-a3ef-07c53a5eb79f")
+			(uuid "36e67bcb-05ea-4087-9354-2261bd37178d")
 		)
 		(pin "2"
-			(uuid "a95632d9-b133-48fe-bd9b-28ea71cd37e0")
+			(uuid "4126f4b8-ec55-4355-a19a-303a6f81817c")
 		)
 		(pin "6"
-			(uuid "d7c86bf3-d630-4539-a7b1-762da408a8af")
+			(uuid "85a859b5-39fe-4ddc-acf7-3e5b54952785")
+		)
+		(pin "16"
+			(uuid "3ebffba0-bdb3-4ed9-9c44-55c631d738d9")
+		)
+		(pin "8"
+			(uuid "25e64ca6-9e5f-403a-8e1f-acdf74143a6f")
+		)
+		(pin "15"
+			(uuid "d41771f4-f0f2-4498-8a82-7d4506be8e92")
+		)
+		(pin "11"
+			(uuid "ca04a157-f7f1-4020-8787-dd71d02d7426")
 		)
 		(pin "1"
-			(uuid "155a8910-c0d4-43b8-895e-ef1502ee78ff")
+			(uuid "2cf46187-75d7-4dde-ab02-ec32666e626e")
 		)
-		(pin "3"
-			(uuid "46f62a50-2034-4dba-a049-c541307e67ee")
+		(pin "14"
+			(uuid "bda476ac-c5b9-4276-96fa-f155fae48925")
+		)
+		(pin "10"
+			(uuid "0a93d064-cc54-439b-96a2-849d5d83d30a")
 		)
 		(pin "7"
-			(uuid "edce5845-1c6e-4f31-a2d6-2d7cbbe003af")
+			(uuid "841682af-697d-4d15-a95f-a74050271791")
+		)
+		(pin "3"
+			(uuid "5fdab6c2-6c15-4c5e-b7de-1f6526c559ce")
 		)
 		(instances
 			(project "xmc-ecat-enet-twin"
 				(path "/f5c7c34d-e330-4aa5-be7e-80f0a3a977af/8415661d-0647-4e9e-90ed-a4245c009069"
-					(reference "TR2")
+					(reference "TR5")
 					(unit 1)
 				)
 			)
@@ -3839,9 +3861,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:RJ45_LED_Shielded")
-		(at 269.24 83.82 0)
-		(mirror y)
+		(lib_id "Transformer:PT61017PEL")
+		(at 204.47 137.16 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3849,10 +3871,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6599c72e-bf39-4e9c-ad5f-f72c3d5a73df")
-		(property "Reference" "J1"
-			(at 269.24 66.04 0)
+		(uuid "49765e33-d85e-47f9-ade7-756c0ec56b70")
+		(property "Reference" "TR6"
+			(at 204.47 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3861,7 +3882,129 @@
 				)
 			)
 		)
-		(property "Value" "RJ45_LED_Shielded"
+		(property "Value" "PT61017PEL"
+			(at 204.47 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Transformer_SMD:Transformer_Ethernet_Bourns_PT61017PEL"
+			(at 204.47 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PT61017PEL.pdf"
+			(at 204.47 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ethernet LAN 10/100 Base-Tx Transformer with Center Taps"
+			(at 204.47 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B1601S"
+			(at 204.47 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C510548"
+			(at 204.47 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
+			(uuid "a1ccac39-a387-49a2-8800-a57294eb18e1")
+		)
+		(pin "2"
+			(uuid "e002ca96-8a1d-4cac-a50d-5930dc6c4b3b")
+		)
+		(pin "6"
+			(uuid "fb97565f-0288-4aaa-a6fa-2eff0f674777")
+		)
+		(pin "16"
+			(uuid "ec399269-9229-43d2-a1bf-5cd2b246b162")
+		)
+		(pin "8"
+			(uuid "32293352-c66c-47fe-8e3c-1eee1a11321b")
+		)
+		(pin "15"
+			(uuid "5e9cdbce-a3af-40fe-9c5f-044eebf51bc1")
+		)
+		(pin "11"
+			(uuid "49596608-7570-4372-ac0c-7751485cb57b")
+		)
+		(pin "1"
+			(uuid "07ae42ed-010c-4247-9a49-443dcbf31d09")
+		)
+		(pin "14"
+			(uuid "6f5dbedd-db2c-409c-a7b0-22ef07c85b35")
+		)
+		(pin "10"
+			(uuid "14c23958-78b6-4071-afb4-c85aab1befc2")
+		)
+		(pin "7"
+			(uuid "02ace7bc-f692-4e19-8f01-cfc4f99153f7")
+		)
+		(pin "3"
+			(uuid "214fa76e-432e-4fef-b283-d292a67f30b2")
+		)
+		(instances
+			(project "xmc-ecat-enet-twin"
+				(path "/f5c7c34d-e330-4aa5-be7e-80f0a3a977af/8415661d-0647-4e9e-90ed-a4245c009069"
+					(reference "TR6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:RJ45_LED_Shielded")
+		(at 269.24 86.36 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6599c72e-bf39-4e9c-ad5f-f72c3d5a73df")
+		(property "Reference" "J1"
 			(at 269.24 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3871,8 +4014,18 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 269.24 83.185 90)
+		(property "Value" "RJ45_LED_Shielded"
+			(at 269.24 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_RJ:RJ45_Amphenol_RJHSE538X"
+			(at 269.24 85.725 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3883,7 +4036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 83.185 90)
+			(at 269.24 85.725 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3894,7 +4047,7 @@
 			)
 		)
 		(property "Description" "RJ connector, 8P8C (8 positions 8 connected), two LEDs, Shielded"
-			(at 269.24 83.82 0)
+			(at 269.24 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3904,8 +4057,8 @@
 				)
 			)
 		)
-		(property "LCSC#" "C7501824"
-			(at 269.24 83.82 0)
+		(property "LCSC Part #" "C7501824"
+			(at 269.24 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3915,8 +4068,8 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 269.24 83.82 0)
+		(property "MPN" "HC-WK88-H16-DB"
+			(at 269.24 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4737,120 +4890,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:RJ45_LED_Shielded")
-		(at 270.51 144.78 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6ac86da-d846-422b-9330-eb156e60d26b")
-		(property "Reference" "J2"
-			(at 270.51 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RJ45_LED_Shielded"
-			(at 270.51 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 270.51 144.145 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 270.51 144.145 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "RJ connector, 8P8C (8 positions 8 connected), two LEDs, Shielded"
-			(at 270.51 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "11"
-			(uuid "c53f4d70-fe47-404d-85f4-02dc7fe2e7dc")
-		)
-		(pin "9"
-			(uuid "317fbf87-40cb-464f-b6e4-e7961c97b32f")
-		)
-		(pin "10"
-			(uuid "b52af40f-4d6f-49a0-b787-eefc4bfc7383")
-		)
-		(pin "12"
-			(uuid "2de5ea2a-6ff7-4d82-9f3f-db93eac6c787")
-		)
-		(pin "8"
-			(uuid "aa869b94-0260-4511-a436-60397b40f1b9")
-		)
-		(pin "SH"
-			(uuid "71113c55-10d3-4216-87f9-6c59730f8ab3")
-		)
-		(pin "6"
-			(uuid "95f2a2d3-9ae6-4091-9387-db682334a437")
-		)
-		(pin "2"
-			(uuid "02c9e872-e8c1-41e4-acb4-07467153a393")
-		)
-		(pin "1"
-			(uuid "39271084-4318-4df1-a265-1a5262de1085")
-		)
-		(pin "7"
-			(uuid "c6c95036-1a7b-40a5-ae7b-898b72c448c4")
-		)
-		(pin "5"
-			(uuid "860ba72c-5fed-421c-a6f5-d04648114995")
-		)
-		(pin "4"
-			(uuid "6a107720-e748-4a99-b393-b0c8b3046a83")
-		)
-		(pin "3"
-			(uuid "68d36b1c-c503-4470-9f6f-463f9e1be0a2")
-		)
-		(instances
-			(project "xmc-ecat-enet-twin"
-				(path "/f5c7c34d-e330-4aa5-be7e-80f0a3a977af/8415661d-0647-4e9e-90ed-a4245c009069"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "karl-atomic-basic:KR0603_75R")
 		(at 245.11 149.86 0)
 		(unit 1)
@@ -5081,8 +5120,9 @@
 		)
 	)
 	(symbol
-		(lib_id "etactica-parts:Transformer_Ethernet_Mentech_H1601CG")
-		(at 198.12 139.7 0)
+		(lib_id "Connector:RJ45_LED_Shielded")
+		(at 270.51 142.24 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5091,9 +5131,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ec0f2805-44f9-4632-9fc6-f5a7fe07c448")
-		(property "Reference" "TR3"
-			(at 198.12 124.46 0)
+		(uuid "e8d7691c-3954-4959-bddb-1d61338732d8")
+		(property "Reference" "J2"
+			(at 270.51 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5102,8 +5142,8 @@
 				)
 			)
 		)
-		(property "Value" "Transformer_Ethernet_Mentech_H1601CG"
-			(at 198.12 127 0)
+		(property "Value" "RJ45_LED_Shielded"
+			(at 270.51 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5112,8 +5152,8 @@
 				)
 			)
 		)
-		(property "Footprint" "et-parts:Transformer_Ethernet_Dongguan-MentechH1651CG_SO-12_7.1x12.7mm"
-			(at 198.12 152.4 0)
+		(property "Footprint" "Connector_RJ:RJ45_Amphenol_RJHSE538X"
+			(at 270.51 141.605 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5123,8 +5163,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110272030_Dongguan-Mentech-Optical---Magnetic-H1651CG_C2904704.pdf"
-			(at 198.12 154.94 0)
+		(property "Datasheet" ""
+			(at 270.51 141.605 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5134,8 +5174,8 @@
 				)
 			)
 		)
-		(property "Description" "Ethernet LAN 10/100 Base-Tx Transformer with Center Taps"
-			(at 198.12 139.7 0)
+		(property "Description" "RJ connector, 8P8C (8 positions 8 connected), two LEDs, Shielded"
+			(at 270.51 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5145,46 +5185,71 @@
 				)
 			)
 		)
-		(pin "14"
-			(uuid "1a2c2c03-1c06-4742-8f3a-dfdcd8e6eacf")
+		(property "LCSC Part #" "C7501824"
+			(at 270.51 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "10"
-			(uuid "7ab3a592-2219-4de7-a61c-2c1dc9a6210b")
-		)
-		(pin "15"
-			(uuid "7ef5396e-463d-47a3-81f2-e31b0edd2caf")
-		)
-		(pin "16"
-			(uuid "bd689b42-6dc8-4287-bf2b-58a2a00deb13")
+		(property "MPN" "HC-WK88-H16-DB"
+			(at 270.51 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "11"
-			(uuid "23abb9ba-d528-4790-921b-e3b3cdeac62a")
+			(uuid "351ceec7-656b-41da-96e2-6011777b5a77")
 		)
 		(pin "9"
-			(uuid "deb895de-e49c-4f0b-9e4f-e4201558cc2c")
+			(uuid "35939363-f740-416c-82b3-a9cd4bf956c8")
+		)
+		(pin "10"
+			(uuid "9a733a1e-7a2f-4248-a5c8-1c7dde453851")
+		)
+		(pin "12"
+			(uuid "8447fd0e-4a57-49d5-9c6f-7bf9a0fe8648")
 		)
 		(pin "8"
-			(uuid "01b81385-9a4b-4059-a3d4-f47be5cd4e83")
+			(uuid "61ed3cd1-be0c-4aee-99ee-da9a30016822")
 		)
-		(pin "2"
-			(uuid "56035f5a-40cd-4258-beab-c595a5332854")
+		(pin "SH"
+			(uuid "01d51654-424c-4e94-a807-ca00a82eeeae")
 		)
 		(pin "6"
-			(uuid "121230ba-781b-4563-bd49-9429ba9393af")
+			(uuid "da3dcac1-79a1-4108-a9f0-674f4fdefd1a")
+		)
+		(pin "2"
+			(uuid "f9a70bbd-dadf-4598-882d-ece6e87ec793")
 		)
 		(pin "1"
-			(uuid "e921caa2-0d87-4b96-9257-22f46cc9f275")
-		)
-		(pin "3"
-			(uuid "629f3cc0-79f7-4576-b726-511d42f2184a")
+			(uuid "da58c9d7-9702-49f3-abc1-e2b0d1b111e6")
 		)
 		(pin "7"
-			(uuid "d1b06bd4-900d-4af8-b2c6-d63d21eb29b7")
+			(uuid "35d069b6-0403-4561-956e-9db789ab02f6")
+		)
+		(pin "5"
+			(uuid "126580f2-2c28-4185-ba4b-8c4215770ac7")
+		)
+		(pin "4"
+			(uuid "93b5f53e-ad32-42d3-ae25-e740aec30fd4")
+		)
+		(pin "3"
+			(uuid "14d95185-3c83-4fba-b404-385f8343e6e9")
 		)
 		(instances
 			(project "xmc-ecat-enet-twin"
 				(path "/f5c7c34d-e330-4aa5-be7e-80f0a3a977af/8415661d-0647-4e9e-90ed-a4245c009069"
-					(reference "TR3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
