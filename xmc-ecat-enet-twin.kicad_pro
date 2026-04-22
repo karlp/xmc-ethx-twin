@@ -564,19 +564,19 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -589,16 +589,86 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "jlc-basic",
+          "name": "jlc-basic",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "jlcbasic",
+          "name": "jlcbasic",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "lcsc#",
+          "name": "lcsc#",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "lcsc2#",
+          "name": "lcsc2#",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part #",
+          "name": "LCSC Part #",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "ECAT": [
+        "TXD0",
+        "TXD1",
+        "TXD2",
+        "TXD3"
+      ],
+      "MII": [
+        "TXD0",
+        "TXD1",
+        "TXD2",
+        "TXD3",
+        "RXD0",
+        "RXD1",
+        "RXD2",
+        "RXD3",
+        "TX_ENA",
+        "RX_DVC",
+        "TX_CLK",
+        "RX_CLK",
+        "RX_ERR"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -639,7 +709,7 @@
         "uuid": "f5c7c34d-e330-4aa5-be7e-80f0a3a977af"
       }
     ],
-    "used_designators": "TR1,TR4-6,J2",
+    "used_designators": "U3,U9-10,TR6,R5,R10-16,J7,C3-8,#PWR9-11,#PWR15-18,#PWR20-21,#PWR23-25",
     "variants": []
   },
   "sheets": [
