@@ -507,6 +507,9 @@
     "netclass_assignments": {
       "+5V": [
         "Power distribution"
+      ],
+      "VBUS": [
+        "Power distribution"
       ]
     },
     "netclass_patterns": []
@@ -709,7 +712,7 @@
         "uuid": "f5c7c34d-e330-4aa5-be7e-80f0a3a977af"
       }
     ],
-    "used_designators": "U3,U9-10,TR6,R5,R10-16,J7,C3-8,#PWR9-11,#PWR15-18,#PWR20-21,#PWR23-25",
+    "used_designators": "C11-14,R29-30,#PWR35,#PWR37-43,#PWR46",
     "variants": []
   },
   "sheets": [
@@ -732,6 +735,10 @@
     [
       "8a413513-9505-4930-8a63-18ba86ee9e3b",
       "pi_interface"
+    ],
+    [
+      "f089b49d-e0ba-4001-9753-2bb5293a4cf2",
+      "mcu_pwr_debug"
     ]
   ],
   "text_variables": {},
