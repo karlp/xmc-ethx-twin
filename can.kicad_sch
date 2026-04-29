@@ -1202,9 +1202,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "10k: fast edges\n100k: slow edges\nDefaulting to \"fast\" for first protos"
+	(text "10k: fast edges\n100k: slow edges\nDefaulting to \"fast\" for first protos\nPull High to turn off."
 		(exclude_from_sim no)
-		(at 81.28 106.68 0)
+		(at 54.61 104.902 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1212,6 +1212,12 @@
 			(justify left bottom)
 		)
 		(uuid "f6882d73-dd1c-47a7-ab5c-5a34270d4caf")
+	)
+	(junction
+		(at 101.6 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c503821-12b2-4d6d-ba3b-bbbfe9d8e245")
 	)
 	(junction
 		(at 144.78 88.9)
@@ -1237,23 +1243,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 93.98) (xy 106.68 93.98)
+			(xy 76.2 93.98) (xy 101.6 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "04eaa931-c55b-4806-82d2-b39acccde186")
-	)
-	(wire
-		(pts
-			(xy 111.76 93.98) (xy 114.3 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15e8682d-635f-4334-ac5f-66f3d53bf0da")
 	)
 	(wire
 		(pts
@@ -1297,6 +1293,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 93.98) (xy 114.3 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b572a11-e1bf-4803-9520-d0844abaf07a")
+	)
+	(wire
+		(pts
 			(xy 149.86 91.44) (xy 149.86 96.52)
 		)
 		(stroke
@@ -1327,6 +1333,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 101.6) (xy 101.6 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c7eab99-24fe-4578-b326-a89f93db47be")
+	)
+	(wire
+		(pts
 			(xy 144.78 88.9) (xy 172.72 88.9)
 		)
 		(stroke
@@ -1344,6 +1360,16 @@
 			(type default)
 		)
 		(uuid "a806e442-3015-4d55-90b8-0391ad6f25de")
+	)
+	(wire
+		(pts
+			(xy 101.6 96.52) (xy 101.6 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd6ae5db-ded3-443c-ab12-67419a6e49bb")
 	)
 	(wire
 		(pts
@@ -1409,7 +1435,7 @@
 	)
 	(hierarchical_label "CAN_SHUTDOWN"
 		(shape input)
-		(at 101.6 93.98 180)
+		(at 76.2 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1418,7 +1444,7 @@
 		)
 		(uuid "16c33602-5816-48a4-957d-649e02a48f7f")
 	)
-	(hierarchical_label "CAN_D"
+	(hierarchical_label "CAN_TX"
 		(shape input)
 		(at 101.6 86.36 180)
 		(effects
@@ -1451,7 +1477,7 @@
 		)
 		(uuid "75535f09-c049-4c3d-8e1c-9b522d4471af")
 	)
-	(hierarchical_label "CAN_R"
+	(hierarchical_label "CAN_RX"
 		(shape output)
 		(at 101.6 88.9 180)
 		(effects
@@ -1464,7 +1490,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 109.22 93.98 90)
+		(at 101.6 99.06 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1475,27 +1501,29 @@
 		(fields_autoplaced yes)
 		(uuid "2b67577b-e59e-439c-ac80-d9851cb0ec29")
 		(property "Reference" "R20"
-			(at 109.22 96.52 90)
+			(at 104.14 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "10k"
-			(at 109.22 99.06 90)
+			(at 104.14 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 109.22 93.98 0)
+			(at 101.6 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1506,7 +1534,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 93.98 0)
+			(at 101.6 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1517,7 +1545,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 93.98 0)
+			(at 101.6 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1527,7 +1555,7 @@
 			)
 		)
 		(property "MPN" "0603WAF1002T5E"
-			(at 109.22 93.98 0)
+			(at 101.6 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1538,7 +1566,7 @@
 			)
 		)
 		(property "jlc-basic" "1"
-			(at 109.22 93.98 0)
+			(at 101.6 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1549,7 +1577,7 @@
 			)
 		)
 		(property "lcsc#" "C25804"
-			(at 109.22 93.98 0)
+			(at 101.6 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1560,7 +1588,7 @@
 			)
 		)
 		(property "lcsc2#" ""
-			(at 109.22 93.98 0)
+			(at 101.6 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1954,6 +1982,83 @@
 			(project "xmc-ecat-enet-twin"
 				(path "/f5c7c34d-e330-4aa5-be7e-80f0a3a977af/ad8b4270-a50e-4348-8863-ac523723f700"
 					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "963591e8-78f2-412f-8218-a48eb5984af8")
+		(property "Reference" "#PWR062"
+			(at 101.6 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "03fe5efc-4593-4c2a-8179-2365ca857378")
+		)
+		(instances
+			(project "xmc-ecat-enet-twin"
+				(path "/f5c7c34d-e330-4aa5-be7e-80f0a3a977af/ad8b4270-a50e-4348-8863-ac523723f700"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)

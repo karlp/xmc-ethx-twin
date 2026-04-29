@@ -2201,6 +2201,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "karl-parts:KJumper_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "KJumper_2"
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, small symbol, open"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "KJumper_2_0_0"
+				(circle
+					(center -1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "KJumper_2_0_1"
+				(arc
+					(start -0.762 1.0196)
+					(mid 0 1.2729)
+					(end 0.762 1.0196)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "KJumper_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -2606,6 +2772,28 @@
 		)
 		(uuid "14e293db-0c6b-49ee-806a-e9ffeb48a05d")
 	)
+	(text "TODO\n* SPI?\n* UART?\n* SWD? (you can openocd on the pi and reprogram it on the fly? heh)\n* Let's say a UART _at least_ ?\n\nIf you do this \"right\", you can stack it with my of my ADC hats and get a \"HWS2\"\nwithout putting any analog on this board at all...\n\n==> Doesn't even have to stack, can just have the XMC as the \"base\" with a pi adc on top?"
+		(exclude_from_sim no)
+		(at 82.296 123.444 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "788b5d11-bbd8-43d8-870a-3261b5fdcbfa")
+	)
+	(text "A \"proper\" power hat supplies 3/5A at 5.1.\nWe may want to be powered by the Pi,\nOr attempt to power it.  Just be careful ok?"
+		(exclude_from_sim no)
+		(at 116.586 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "961a80f8-f38f-4504-8946-a715a66a1b6e")
+	)
 	(text "EEPROM interface to allow hat detection and automatic overlays"
 		(exclude_from_sim no)
 		(at 52.324 186.69 0)
@@ -2794,6 +2982,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 25.4) (xy 139.7 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16926dc4-4ad2-461a-8434-99e9c662f8ad")
+	)
+	(wire
+		(pts
 			(xy 63.5 73.66) (xy 66.04 73.66)
 		)
 		(stroke
@@ -2924,7 +3122,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 20.32) (xy 81.28 25.4)
+			(xy 81.28 17.78) (xy 81.28 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3041,6 +3239,16 @@
 			(type default)
 		)
 		(uuid "6b31287a-298e-4e5b-9fcf-6304a514d93c")
+	)
+	(wire
+		(pts
+			(xy 127 25.4) (xy 129.54 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ec6dfec-4f0f-491c-884a-afede171bc1a")
 	)
 	(wire
 		(pts
@@ -3766,9 +3974,57 @@
 			)
 		)
 	)
+	(global_label "5VPI"
+		(shape bidirectional)
+		(at 81.28 17.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e80836d-4f69-4209-97be-aa1e9801e4d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.5494 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "5VPI"
+		(shape bidirectional)
+		(at 127 25.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b8e21103-519b-4e82-8d66-e5ca8a5f4cdd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.7306 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 81.28 20.32 0)
+		(at 139.7 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3778,7 +4034,7 @@
 		(dnp no)
 		(uuid "05caab0b-098d-4e07-bbeb-cb4b61629044")
 		(property "Reference" "#PWR01"
-			(at 81.28 24.13 0)
+			(at 139.7 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3789,7 +4045,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 81.6483 15.9956 0)
+			(at 140.0683 21.0756 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3799,7 +4055,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 20.32 0)
+			(at 139.7 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3809,7 +4065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 20.32 0)
+			(at 139.7 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3819,7 +4075,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 81.28 20.32 0)
+			(at 139.7 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5087,6 +5343,86 @@
 			(project "xmc-ecat-enet-twin"
 				(path "/f5c7c34d-e330-4aa5-be7e-80f0a3a977af/8a413513-9505-4930-8a63-18ba86ee9e3b"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "karl-parts:KJumper_2")
+		(at 132.08 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdcb4737-39af-478e-b8ca-8414b083b2aa")
+		(property "Reference" "JP3"
+			(at 132.08 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KJumper_2"
+			(at 132.08 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+			(at 132.08 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 132.08 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "44fcd921-e0ab-44ee-9980-726394409b71")
+		)
+		(pin "1"
+			(uuid "d2f47f6d-680f-4543-83e9-5d938fd553dc")
+		)
+		(instances
+			(project "xmc-ecat-enet-twin"
+				(path "/f5c7c34d-e330-4aa5-be7e-80f0a3a977af/8a413513-9505-4930-8a63-18ba86ee9e3b"
+					(reference "JP3")
 					(unit 1)
 				)
 			)

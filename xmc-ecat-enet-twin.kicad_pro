@@ -603,13 +603,13 @@
           "group_by": false,
           "label": "jlc-basic",
           "name": "jlc-basic",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "jlcbasic",
           "name": "jlcbasic",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -639,6 +639,18 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCbasic",
+          "name": "JLCbasic",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Comments",
+          "name": "Comments",
           "show": false
         }
       ],
@@ -712,7 +724,7 @@
         "uuid": "f5c7c34d-e330-4aa5-be7e-80f0a3a977af"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U11",
     "variants": []
   },
   "sheets": [
