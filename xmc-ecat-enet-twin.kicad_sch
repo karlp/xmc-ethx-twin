@@ -5043,7 +5043,7 @@
 		)
 		(uuid "caabd91d-db47-4995-bb13-c8aa3c8eab7a")
 	)
-	(text "In Ethercat, XMC48 needs to provide clock to keep in sync\nFor Ethernet, still need a clock for the phys!\nWe can't generate 25M with CCU81 on that pin,\nso mux a 25M oscillator.\n(OSC is default! pull down CLK_SEL to use ECAT!)"
+	(text "In Ethercat, XMC48 needs to provide clock to keep in sync\nFor Ethernet, still need a clock for the phys!\nWe can't generate 25M with CCU81 on that pin,\nso mux a 25M oscillator.\nDefault is ETHERCAT"
 		(exclude_from_sim no)
 		(at 212.852 200.914 0)
 		(effects
@@ -5065,6 +5065,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0bd8f401-72a2-446d-a727-339699bace3c")
+	)
+	(junction
+		(at 281.94 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f720e66-46ec-4052-8fea-4875d3ceeaeb")
 	)
 	(junction
 		(at 213.36 220.98)
@@ -5095,12 +5101,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3bcc4b9-321a-413e-b03b-43fda7fb074d")
-	)
-	(junction
-		(at 281.94 210.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf85ba18-b92b-4072-8ac0-55bc5c33e07d")
 	)
 	(junction
 		(at 271.78 246.38)
@@ -5569,16 +5569,6 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 208.28) (xy 281.94 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36751523-c2c8-45b6-80ef-df8a78671865")
-	)
-	(wire
-		(pts
 			(xy 340.36 86.36) (xy 353.06 86.36)
 		)
 		(stroke
@@ -5686,6 +5676,16 @@
 			(type default)
 		)
 		(uuid "4462b6c9-ab05-473d-ac46-840f66cb693a")
+	)
+	(wire
+		(pts
+			(xy 284.48 210.82) (xy 281.94 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d16757e-dded-42cc-97b4-7f330c1f6e1d")
 	)
 	(wire
 		(pts
@@ -5936,6 +5936,16 @@
 			(type default)
 		)
 		(uuid "8a8dda06-21c6-4a78-bbe3-9100634c587e")
+	)
+	(wire
+		(pts
+			(xy 292.1 210.82) (xy 289.56 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aa3dc0f-4ef6-4567-91e3-f71c05fc637f")
 	)
 	(wire
 		(pts
@@ -6316,16 +6326,6 @@
 			(type default)
 		)
 		(uuid "ea6d9305-a0ce-419c-bb28-5e355763a853")
-	)
-	(wire
-		(pts
-			(xy 281.94 200.66) (xy 281.94 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb9d4fe9-9475-4c95-bf37-3f00a4296198")
 	)
 	(wire
 		(pts
@@ -7226,7 +7226,7 @@
 	)
 	(symbol
 		(lib_id "karl-atomic-basic:KR0402_10k")
-		(at 281.94 205.74 0)
+		(at 287.02 210.82 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7237,29 +7237,27 @@
 		(fields_autoplaced yes)
 		(uuid "2c0aa071-e419-4a57-9151-e17fca31446f")
 		(property "Reference" "R33"
-			(at 284.48 204.4699 0)
+			(at 287.02 205.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "10k"
-			(at 284.48 207.0099 0)
+			(at 287.02 208.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 281.94 205.74 0)
+			(at 287.02 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7270,7 +7268,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 281.94 205.74 0)
+			(at 287.02 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7281,7 +7279,7 @@
 			)
 		)
 		(property "Description" "Resistor, 0402"
-			(at 281.94 205.74 0)
+			(at 287.02 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7292,7 +7290,7 @@
 			)
 		)
 		(property "LCSC Part #" "C25744"
-			(at 281.94 205.74 0)
+			(at 287.02 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7303,7 +7301,7 @@
 			)
 		)
 		(property "MPN" "0402WGF1002TCE"
-			(at 281.94 205.74 0)
+			(at 287.02 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7314,7 +7312,7 @@
 			)
 		)
 		(property "jlcbasic" "basic"
-			(at 281.94 205.74 0)
+			(at 287.02 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7334,84 +7332,6 @@
 			(project "xmc-ecat-enet-twin"
 				(path "/f5c7c34d-e330-4aa5-be7e-80f0a3a977af"
 					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 281.94 200.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43e53419-0c09-48cf-9883-14945e604b2a")
-		(property "Reference" "#PWR053"
-			(at 281.94 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 281.94 195.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 281.94 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 281.94 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 281.94 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6dfd6a48-7610-4248-b6d9-0a40f0156c1c")
-		)
-		(instances
-			(project "xmc-ecat-enet-twin"
-				(path "/f5c7c34d-e330-4aa5-be7e-80f0a3a977af"
-					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -8380,6 +8300,84 @@
 			(project "xmc-ecat-enet-twin"
 				(path "/f5c7c34d-e330-4aa5-be7e-80f0a3a977af"
 					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 292.1 210.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a6bb0ee-baa1-4785-93de-03e7df509cf6")
+		(property "Reference" "#PWR053"
+			(at 292.1 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 292.1 215.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 292.1 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 292.1 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d2eddfd0-fd2c-43ea-acf2-abff4b325c8c")
+		)
+		(instances
+			(project "xmc-ecat-enet-twin"
+				(path "/f5c7c34d-e330-4aa5-be7e-80f0a3a977af"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -9983,7 +9981,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eb42337a-a806-44cc-b73e-f45a9306b57b")
 		(property "Reference" "U11"
 			(at 281.94 229.87 0)
