@@ -5175,6 +5175,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Classic JBT Marel CAN connector"
+		(exclude_from_sim no)
+		(at 40.132 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6ee50658-3921-4460-b64c-4f0ff1c0bfb8")
+	)
 	(text "mixed size here is to get a perfect\n4:1 ratio for 5V in JLC basic resistors"
 		(exclude_from_sim no)
 		(at 216.154 143.764 0)

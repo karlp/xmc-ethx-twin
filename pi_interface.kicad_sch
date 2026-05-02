@@ -128,6 +128,222 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_02x02_Counter_Clockwise"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x02_Counter_Clockwise"
+				(at 1.27 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_02x02_Counter_Clockwise_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x20_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -2759,6 +2975,16 @@
 		)
 		(uuid "14e293db-0c6b-49ee-806a-e9ffeb48a05d")
 	)
+	(text "Free choice really?"
+		(exclude_from_sim no)
+		(at 172.72 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3a510dba-918a-4f65-ac35-2dea11a9eb7b")
+	)
 	(text "TODO\n* SPI?\n* UART?\n* SWD? (you can openocd on the pi and reprogram it on the fly? heh)\n* Let's say a UART _at least_ ?\n\nIf you do this \"right\", you can stack it with my of my ADC hats and get a \"HWS2\"\nwithout putting any analog on this board at all...\n\n==> Doesn't even have to stack, can just have the XMC as the \"base\" with a pi adc on top?"
 		(exclude_from_sim no)
 		(at 82.296 123.444 0)
@@ -2781,15 +3007,27 @@
 		)
 		(uuid "961a80f8-f38f-4504-8946-a715a66a1b6e")
 	)
-	(text "EEPROM interface to allow hat detection and automatic overlays"
+	(text "EEPROM interface to allow hat detection and automatic overlays\nOnly required if you're going to go _on_ a pi."
 		(exclude_from_sim no)
-		(at 52.324 186.69 0)
+		(at 18.034 187.706 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "dcdef112-2a7f-48e7-8513-6148a375f1ed")
+	)
+	(text "if we're the hat, then tx->rx.\nif we're the base, then tx -> tx! :)\njumpers are big and bulky... what do you want to do?\nfuck, it, 2x2 jumpers to swap."
+		(exclude_from_sim no)
+		(at 166.37 48.768 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb7d3bab-ca0a-4eef-ae8f-194d614cda11")
 	)
 	(junction
 		(at 53.34 152.4)
@@ -2929,6 +3167,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 93.98) (xy 203.2 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b7afb3b-0201-4fcc-bf00-0fd0d079fe84")
+	)
+	(wire
+		(pts
 			(xy 81.28 60.96) (xy 78.74 60.96)
 		)
 		(stroke
@@ -3009,6 +3257,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 96.52) (xy 203.2 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2599ef1c-8752-4a12-9806-dca165ef7815")
+	)
+	(wire
+		(pts
 			(xy 78.74 45.72) (xy 101.6 45.72)
 		)
 		(stroke
@@ -3029,6 +3287,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 83.82) (xy 203.2 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32cf862b-0e43-4886-96dd-43d5d2b78c2e")
+	)
+	(wire
+		(pts
 			(xy 78.74 38.1) (xy 101.6 38.1)
 		)
 		(stroke
@@ -3036,6 +3304,16 @@
 			(type default)
 		)
 		(uuid "378eb69a-648b-45d5-afc7-ffa2298e9d07")
+	)
+	(wire
+		(pts
+			(xy 203.2 63.5) (xy 187.96 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "388fce2f-a35d-479f-9b7d-eca696d73e24")
 	)
 	(wire
 		(pts
@@ -3159,6 +3437,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 73.66) (xy 203.2 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57481fc8-a93c-4160-9fbf-dbd8bb97c4ed")
+	)
+	(wire
+		(pts
 			(xy 60.96 149.86) (xy 60.96 152.4)
 		)
 		(stroke
@@ -3166,6 +3454,16 @@
 			(type solid)
 		)
 		(uuid "5a818a13-ce35-46ee-8133-6be6d220078b")
+	)
+	(wire
+		(pts
+			(xy 195.58 81.28) (xy 203.2 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c173170-6b90-4ffd-99d0-9b1b479e88b7")
 	)
 	(wire
 		(pts
@@ -3186,6 +3484,16 @@
 			(type default)
 		)
 		(uuid "622db749-0650-47c5-ab8e-cf456ed1146a")
+	)
+	(wire
+		(pts
+			(xy 165.1 63.5) (xy 175.26 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64b5ce22-694a-4c04-8d8e-6a8491214e6f")
 	)
 	(wire
 		(pts
@@ -3236,6 +3544,16 @@
 			(type default)
 		)
 		(uuid "6ec6dfec-4f0f-491c-884a-afede171bc1a")
+	)
+	(wire
+		(pts
+			(xy 195.58 71.12) (xy 203.2 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72c421d6-41c9-40be-a040-4db403e5cec6")
 	)
 	(wire
 		(pts
@@ -3329,6 +3647,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 86.36) (xy 203.2 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b0f558b-73d4-43f9-9d3e-b9947327cc91")
+	)
+	(wire
+		(pts
 			(xy 40.64 58.42) (xy 66.04 58.42)
 		)
 		(stroke
@@ -3346,6 +3674,16 @@
 			(type default)
 		)
 		(uuid "9c045b36-4b2b-4d97-8129-aa4b7cf09175")
+	)
+	(wire
+		(pts
+			(xy 195.58 78.74) (xy 203.2 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d55b4ba-b117-40e2-bd68-792e3cd7932c")
 	)
 	(wire
 		(pts
@@ -3469,6 +3807,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 66.04) (xy 187.96 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdcbb8c5-ff5a-4d4f-8188-6fde45ee7705")
+	)
+	(wire
+		(pts
 			(xy 40.64 48.26) (xy 66.04 48.26)
 		)
 		(stroke
@@ -3486,6 +3834,16 @@
 			(type default)
 		)
 		(uuid "cd05fdfa-cb76-4b5c-86ec-3545e393ea44")
+	)
+	(wire
+		(pts
+			(xy 195.58 91.44) (xy 203.2 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1444247-062d-400a-ac0b-ef1e2dcdcb37")
 	)
 	(wire
 		(pts
@@ -3556,6 +3914,16 @@
 			(type solid)
 		)
 		(uuid "e9d7a38e-e427-48bf-a226-30a04f033a17")
+	)
+	(wire
+		(pts
+			(xy 165.1 66.04) (xy 175.26 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb12d899-58a6-44ee-a3e3-1ad8764e8a4e")
 	)
 	(wire
 		(pts
@@ -3657,6 +4025,16 @@
 		)
 		(uuid "1a4ac0a3-933c-42bb-82c7-eca21e413373")
 	)
+	(label "GPIO2{slash}SDA1"
+		(at 195.58 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "224f4dc0-d366-4a25-bf90-266a350c69ad")
+	)
 	(label "GPIO14{slash}TXD0"
 		(at 101.6 33.02 180)
 		(effects
@@ -3676,6 +4054,16 @@
 			(justify right bottom)
 		)
 		(uuid "2f6e39ae-6f94-4cfb-9b66-a55095a309ef")
+	)
+	(label "GPIO15{slash}RXD0"
+		(at 165.1 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "31cf5d80-87ed-4a9e-935c-df6553cf8042")
 	)
 	(label "GPIO10{slash}SPI0.MOSI"
 		(at 40.64 48.26 0)
@@ -3727,6 +4115,16 @@
 		)
 		(uuid "581eb778-3e0e-4984-a004-b99d02ce2142")
 	)
+	(label "GPIO7{slash}SPI0.CE1"
+		(at 195.58 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6bcc24f0-3bf0-46dc-b779-b630a8bb6f45")
+	)
 	(label "GPIO12{slash}PWM0"
 		(at 101.6 63.5 180)
 		(effects
@@ -3746,6 +4144,36 @@
 			(justify right bottom)
 		)
 		(uuid "705887e2-3585-4c9b-811f-fe92a8c0a3f1")
+	)
+	(label "GPIO10{slash}SPI0.MOSI"
+		(at 195.58 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "73786ac2-d562-43cd-afb7-00db1fe642e5")
+	)
+	(label "GPIO9{slash}SPI0.MISO"
+		(at 195.58 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "73d04d4e-9016-4473-95d3-b4fb88b32348")
+	)
+	(label "GPIO12{slash}PWM0"
+		(at 195.58 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7509ce8d-4859-4658-b190-53de5c6da08a")
 	)
 	(label "GPIO20{slash}PCM.DIN"
 		(at 101.6 71.12 180)
@@ -3776,6 +4204,16 @@
 			(justify right bottom)
 		)
 		(uuid "863f1f7d-4f04-4966-818d-d2a7a3fe7b68")
+	)
+	(label "GPIO11{slash}SPI0.SCLK"
+		(at 195.58 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8652b045-e71e-4195-a793-917e4893dc53")
 	)
 	(label "GPIO8{slash}SPI0.CE0"
 		(at 101.6 53.34 180)
@@ -3816,6 +4254,26 @@
 			(justify left bottom)
 		)
 		(uuid "920b9f33-7d1f-4c3b-9cf3-68a89d127d87")
+	)
+	(label "SPI_21_CS"
+		(at 0.1588 2.0957 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9befe75a-e167-4d88-ab89-4aac505bad59")
+	)
+	(label "GPIO8{slash}SPI0.CE0"
+		(at 195.58 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9dcef81b-16d6-4d78-a7d9-db81797bb4af")
 	)
 	(label "GPIO25"
 		(at 101.6 50.8 180)
@@ -3937,6 +4395,36 @@
 		)
 		(uuid "ee58048a-71c7-49ec-aecb-66033e2d9db1")
 	)
+	(label "GPIO14{slash}TXD0"
+		(at 165.1 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f37ec26c-ca6c-4dc4-839e-ce82fd68fb42")
+	)
+	(label "GPIO13{slash}PWM1"
+		(at 195.58 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f4b99fca-6115-4d13-badd-52508d2a83c3")
+	)
+	(label "GPIO3{slash}SCL1"
+		(at 195.58 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f861172c-61de-4eba-a5b6-83c14de4fc28")
+	)
 	(global_label "3V3PI"
 		(shape bidirectional)
 		(at 60.96 20.32 180)
@@ -4008,6 +4496,127 @@
 				(justify right)
 			)
 		)
+	)
+	(hierarchical_label "SPI_CLK"
+		(shape bidirectional)
+		(at 203.2 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "173ece5f-b7bd-4cb1-8299-c6495681dfbd")
+	)
+	(hierarchical_label "UART_TX_FROM_MCU"
+		(shape bidirectional)
+		(at 203.2 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1eaed0cc-34c8-4787-8b3c-223bd920676a")
+	)
+	(hierarchical_label "IRQ1_SPI_CS2"
+		(shape bidirectional)
+		(at 203.2 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f857a97-2fd9-4156-914c-cf6cceecf249")
+	)
+	(hierarchical_label "IRQ3"
+		(shape bidirectional)
+		(at 203.2 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3906a912-4234-41da-ae46-f65a3a8d62f8")
+	)
+	(hierarchical_label "UART_RX_TO_MCU"
+		(shape bidirectional)
+		(at 203.2 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "76c17a70-aa0b-41d8-aff9-f945c249a1f5")
+	)
+	(hierarchical_label "SPI_MISO"
+		(shape bidirectional)
+		(at 203.2 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a94f3797-a624-4ae7-9b1c-1066990d1c91")
+	)
+	(hierarchical_label "I2C_SDA"
+		(shape bidirectional)
+		(at 203.2 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ab3a22e8-3769-45b9-88ab-c76de66baef9")
+	)
+	(hierarchical_label "SPI_CS"
+		(shape bidirectional)
+		(at 203.2 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b90c7544-13d9-45bd-a905-ca32c561ccda")
+	)
+	(hierarchical_label "IRQ2"
+		(shape bidirectional)
+		(at 203.2 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bdfb5ecc-5c42-47dc-8d79-a5087c9da828")
+	)
+	(hierarchical_label "SPI_MOSI"
+		(shape bidirectional)
+		(at 203.2 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d6778563-632c-4acf-96e5-4dbd9bd6b3f2")
+	)
+	(hierarchical_label "I2C_SCL"
+		(shape bidirectional)
+		(at 203.2 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f516574b-72e2-44e1-a6e7-7a118694bfe9")
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -4231,6 +4840,92 @@
 			(project "xmc-ecat-enet-twin"
 				(path "/f5c7c34d-e330-4aa5-be7e-80f0a3a977af/8a413513-9505-4930-8a63-18ba86ee9e3b"
 					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x02_Counter_Clockwise")
+		(at 180.34 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "269190a7-aff0-4307-91b1-8a5eede06f0d")
+		(property "Reference" "J1"
+			(at 181.61 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x02_Counter_Clockwise"
+			(at 181.61 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
+			(at 180.34 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 180.34 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "1f46ed53-9cc6-4342-bcbc-11557aecc9c8")
+		)
+		(pin "4"
+			(uuid "24615785-6303-48b9-93ab-c42d68d37663")
+		)
+		(pin "2"
+			(uuid "16768565-c5b6-425e-bc6a-daae8bc0c4ed")
+		)
+		(pin "1"
+			(uuid "067bf13f-1f2e-4bd4-a1d3-23541a4da1ab")
+		)
+		(instances
+			(project "xmc-ecat-enet-twin"
+				(path "/f5c7c34d-e330-4aa5-be7e-80f0a3a977af/8a413513-9505-4930-8a63-18ba86ee9e3b"
+					(reference "J1")
 					(unit 1)
 				)
 			)
