@@ -4488,6 +4488,16 @@
 		)
 		(uuid "deed255d-11ad-4afd-9cca-21273de0290c")
 	)
+	(text "This results in twisted routing.  there must be something wrong or swappable..."
+		(exclude_from_sim no)
+		(at 176.784 55.626 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f2342e66-9577-4b91-95a5-9e0363155785")
+	)
 	(junction
 		(at 236.22 193.04)
 		(diameter 0)

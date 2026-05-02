@@ -5042,7 +5042,7 @@
 		)
 		(uuid "caabd91d-db47-4995-bb13-c8aa3c8eab7a")
 	)
-	(text "TODO:\n* leds for ethercat/can run state and errors?\n  => do I heckin care for this demo?\n* IO? for ethercat?\n\nWe can plug in one of Karl's pihats for an Analog section on spi,\nWe could make our own daughterboard pihats for IO too?"
+	(text "TODO:\n* leds for ethercat/can run state and errors?\n  => do I heckin care for this demo?\n* IO? for ethercat?\n* Buttons?\n* Leds?\n\nWe can plug in one of Karl's pihats for an Analog section on spi,\nWe could make our own daughterboard pihats for IO too?"
 		(exclude_from_sim no)
 		(at 118.11 179.07 0)
 		(effects
