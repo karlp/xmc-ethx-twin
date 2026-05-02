@@ -5,149 +5,6 @@
 	(uuid "e74b353f-2d92-4d2e-b876-4daaf74fd8a4")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:R_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_Small_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Interface_CAN_LIN:SN65HVD230"
 			(pin_names
 				(offset 1.016)
@@ -396,6 +253,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "Jumper:Jumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -601,7 +461,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF"
+			(property "Datasheet" "https://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF"
 				(at 3.175 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -838,10 +698,198 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "karl-atomic-basic:KR0402_10k"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10k"
+				(at 0.762 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, 0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part #" "C25744"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "0402WGF1002TCE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "jlcbasic" "basic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R resistor 0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_0402*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "KR0402_10k_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "KR0402_10k_1_1"
+				(text "0402"
+					(at 0 0 900)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -955,8 +1003,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+3V3"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -976,8 +1023,12 @@
 		)
 		(symbol "power:GND"
 			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1067,8 +1118,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1169,7 +1219,7 @@
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(name "pwr"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1363,16 +1413,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 96.52) (xy 101.6 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd6ae5db-ded3-443c-ab12-67419a6e49bb")
-	)
-	(wire
-		(pts
 			(xy 149.86 91.44) (xy 172.72 91.44)
 		)
 		(stroke
@@ -1380,6 +1420,16 @@
 			(type default)
 		)
 		(uuid "c860b93e-e09c-4209-a5e2-e10f4cba2dee")
+	)
+	(wire
+		(pts
+			(xy 101.6 93.98) (xy 101.6 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc69eaba-e44f-4a07-abe3-a56ae324e52f")
 	)
 	(wire
 		(pts
@@ -1489,7 +1539,7 @@
 		(uuid "fd87cbf2-cdda-4ed7-8ed9-71fb3664efef")
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "karl-atomic-basic:KR0402_10k")
 		(at 101.6 99.06 180)
 		(unit 1)
 		(body_style 1)
@@ -1499,8 +1549,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2b67577b-e59e-439c-ac80-d9851cb0ec29")
-		(property "Reference" "R20"
+		(uuid "01e130c9-99f4-464f-a3bb-8e798f830293")
+		(property "Reference" "R38"
 			(at 104.14 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1522,7 +1572,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 101.6 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -1544,17 +1594,7 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 101.6 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0603WAF1002T5E"
+		(property "Description" "Resistor, 0402"
 			(at 101.6 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -1565,7 +1605,7 @@
 				)
 			)
 		)
-		(property "jlc-basic" "1"
+		(property "LCSC Part #" "C25744"
 			(at 101.6 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -1576,7 +1616,7 @@
 				)
 			)
 		)
-		(property "lcsc#" "C25804"
+		(property "MPN" "0402WGF1002TCE"
 			(at 101.6 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -1587,7 +1627,40 @@
 				)
 			)
 		)
-		(property "lcsc2#" ""
+		(property "jlcbasic" "basic"
+			(at 101.6 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCbasic" ""
+			(at 101.6 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc-basic" ""
+			(at 101.6 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc#" ""
 			(at 101.6 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -1599,15 +1672,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "37b8d330-e505-4904-907a-938d01c87877")
+			(uuid "6b434431-bd2a-4ca1-a4b1-497eed3b9b9d")
 		)
 		(pin "2"
-			(uuid "37d0e319-91bb-4df5-8b07-db4443774673")
+			(uuid "38a04e9c-bde6-4112-a91c-879cb6ee4a09")
 		)
 		(instances
 			(project "xmc-ecat-enet-twin"
 				(path "/f5c7c34d-e330-4aa5-be7e-80f0a3a977af/ad8b4270-a50e-4348-8863-ac523723f700"
-					(reference "R20")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -1669,8 +1742,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAN Bus Transceivers, 3.3V, 1Mbps, Low-Power capabilities, SOIC-8"
 			(at 124.46 88.9 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1679,7 +1753,7 @@
 				)
 			)
 		)
-		(property "lcsc#" "C12084"
+		(property "LCSC Part #" "C12084"
 			(at 124.46 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -1701,7 +1775,7 @@
 				)
 			)
 		)
-		(property "jlc-basic" "1"
+		(property "lcsc2#" ""
 			(at 124.46 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -1712,7 +1786,18 @@
 				)
 			)
 		)
-		(property "lcsc2#" ""
+		(property "jlcbasic" "basic"
+			(at 124.46 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc#" ""
 			(at 124.46 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -1811,8 +1896,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 147.32 109.22 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1888,8 +1974,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 124.46 63.5 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1965,8 +2052,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 116.84 73.66 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2042,8 +2130,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 101.6 109.22 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2120,8 +2209,42 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Jumper, 2-pole, open"
 			(at 124.46 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCbasic" ""
+			(at 124.46 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc-basic" ""
+			(at 124.46 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc#" ""
+			(at 124.46 71.12 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2191,7 +2314,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF"
+		(property "Datasheet" "https://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF"
 			(at 150.495 98.425 0)
 			(hide yes)
 			(show_name no)
@@ -2202,8 +2325,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual Line CAN Bus Protector, 24Vrwm"
 			(at 147.32 101.6 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2223,7 +2347,7 @@
 				)
 			)
 		)
-		(property "jlc-basic" "0"
+		(property "LCSC Part #" "C5261087"
 			(at 147.32 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -2234,7 +2358,7 @@
 				)
 			)
 		)
-		(property "lcsc#" "C5261087"
+		(property "jlcbasic" "0"
 			(at 147.32 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -2245,7 +2369,7 @@
 				)
 			)
 		)
-		(property "lcsc2#" ""
+		(property "lcsc#" ""
 			(at 147.32 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -2329,8 +2453,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 124.46 109.22 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

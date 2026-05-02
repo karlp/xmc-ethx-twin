@@ -1292,7 +1292,7 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 -7.62 0)
+					(at -2.54 -15.24 0)
 					(length 2.54)
 					(name "VDDC"
 						(effects
@@ -1310,7 +1310,7 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 -15.24 0)
+					(at -2.54 -7.62 0)
 					(length 2.54)
 					(name "VDDP"
 						(effects
@@ -1382,7 +1382,7 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 -17.78 0)
+					(at -2.54 -10.16 0)
 					(length 2.54)
 					(name "VDDP"
 						(effects
@@ -1400,7 +1400,7 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 -10.16 0)
+					(at -2.54 -17.78 0)
 					(length 2.54)
 					(name "VDDC"
 						(effects
@@ -1544,7 +1544,7 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 -20.32 0)
+					(at -2.54 -12.7 0)
 					(length 2.54)
 					(name "VDDP"
 						(effects
@@ -1562,7 +1562,7 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 -43.18 0)
+					(at 20.32 -12.7 180)
 					(length 2.54)
 					(name "VSSA"
 						(effects
@@ -1598,7 +1598,7 @@
 					)
 				)
 				(pin power_in line
-					(at 20.32 -7.62 180)
+					(at 20.32 -5.08 180)
 					(length 2.54)
 					(name "VAREF"
 						(effects
@@ -1616,7 +1616,7 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 -12.7 0)
+					(at -2.54 -20.32 0)
 					(length 2.54)
 					(name "VDDC"
 						(effects
@@ -7169,6 +7169,39 @@
 				)
 			)
 		)
+		(property "JLCbasic" ""
+			(at 213.36 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc-basic" ""
+			(at 213.36 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc#" ""
+			(at 213.36 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2325686c-1da7-4950-8b28-a3a2a0c1f7df")
 		)
@@ -7282,6 +7315,39 @@
 				)
 			)
 		)
+		(property "JLCbasic" ""
+			(at 287.02 210.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc-basic" ""
+			(at 287.02 210.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc#" ""
+			(at 287.02 210.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a1a155fa-d2e2-49e3-af84-5ce173eb55a8")
 		)
@@ -7319,7 +7385,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "XMC4800-E196"
 			(at 152.4 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7352,6 +7418,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 152.4 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCbasic" ""
+			(at 152.4 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc-basic" ""
+			(at 152.4 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc#" ""
 			(at 152.4 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -8057,6 +8156,39 @@
 				)
 			)
 		)
+		(property "JLCbasic" ""
+			(at 213.36 218.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc-basic" ""
+			(at 213.36 218.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc#" ""
+			(at 213.36 218.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "266bfe69-20e8-4acf-8023-b8e4103bcb7a")
 		)
@@ -8162,6 +8294,39 @@
 			)
 		)
 		(property "jlcbasic" "basic"
+			(at 271.78 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCbasic" ""
+			(at 271.78 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc-basic" ""
+			(at 271.78 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc#" ""
 			(at 271.78 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -8430,6 +8595,39 @@
 				)
 			)
 		)
+		(property "JLCbasic" ""
+			(at 228.6 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc-basic" ""
+			(at 228.6 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc#" ""
+			(at 228.6 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a3851bda-16c5-4874-a512-867c06d6621d")
 		)
@@ -8551,7 +8749,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "XMC4800-E196"
 			(at 228.6 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8584,6 +8782,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 228.6 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCbasic" ""
+			(at 228.6 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc-basic" ""
+			(at 228.6 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc#" ""
 			(at 228.6 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -9291,7 +9522,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "XMC4800-E196"
 			(at 355.6 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9324,6 +9555,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 355.6 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCbasic" ""
+			(at 355.6 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc-basic" ""
+			(at 355.6 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc#" ""
 			(at 355.6 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10030,6 +10294,39 @@
 				)
 			)
 		)
+		(property "JLCbasic" ""
+			(at 281.94 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc-basic" ""
+			(at 281.94 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc#" ""
+			(at 281.94 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "2a780013-d04d-4727-872c-90263d59b5a5")
 		)
@@ -10150,6 +10447,39 @@
 		)
 		(property "Comments" "UMW make multiples, matching OEM part names, all same"
 			(at 282.194 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCbasic" ""
+			(at 281.94 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc-basic" ""
+			(at 281.94 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc#" ""
+			(at 281.94 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
